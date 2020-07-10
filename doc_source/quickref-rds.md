@@ -40,7 +40,7 @@ This example shows an Amazon RDS DB Instance resource\. Because the optional Eng
  5.     - Ref: MyDbSecurityByEC2SecurityGroup
  6.     - Ref: MyDbSecurityByCIDRIPGroup
  7.     AllocatedStorage: '5'
- 8.     DBInstanceClass: db.m1.small
+ 8.     DBInstanceClass: db.m1.sad
  9.     Engine: MySQL
 10.     MasterUsername: MyName
 11.     MasterUserPassword: MyPassword
